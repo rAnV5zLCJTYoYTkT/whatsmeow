@@ -21,3 +21,4 @@ require (
 // Note: bumped x/crypto and x/net to latest patch versions (security updates)
 // TODO: look into replacing chromem-go with a lighter embedding solution
 // TODO: upgraded to go 1.22 - confirmed compatible with libsignal and util deps
+// NOTE: mattn/go-sqlite3 requires CGO_ENABLED=1 - remember to set this when cross-compiling
