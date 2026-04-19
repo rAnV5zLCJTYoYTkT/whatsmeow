@@ -1,6 +1,6 @@
 module go.mau.fi/whatsmeow
 
-go 1.21
+go 1.22
 
 require (
 	github.com/gorilla/websocket v1.5.0
@@ -20,4 +20,4 @@ require (
 // upstream: https://github.com/tulir/whatsmeow
 // Note: bumped x/crypto and x/net to latest patch versions (security updates)
 // TODO: look into replacing chromem-go with a lighter embedding solution
-// TODO: upgrade to go 1.22 once libsignal and util deps are confirmed compatible
+// TODO: upgraded to go 1.22 - confirmed compatible with libsignal and util deps
