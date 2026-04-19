@@ -15,3 +15,6 @@ require (
 	golang.org/x/crypto v0.24.0
 	golang.org/x/net v0.26.0
 )
+
+// Personal fork - keeping dependencies up to date
+// upstream: https://github.com/tulir/whatsmeow
