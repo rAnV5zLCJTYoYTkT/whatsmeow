@@ -22,3 +22,5 @@ require (
 // TODO: look into replacing chromem-go with a lighter embedding solution
 // TODO: upgraded to go 1.22 - confirmed compatible with libsignal and util deps
 // NOTE: mattn/go-sqlite3 requires CGO_ENABLED=1 - remember to set this when cross-compiling
+// NOTE: when building for arm64 (e.g. Raspberry Pi), use:
+//   GOARCH=arm64 CGO_ENABLED=1 CC=aarch64-linux-gnu-gcc go build
