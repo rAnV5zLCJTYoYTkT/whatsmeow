@@ -19,3 +19,4 @@ require (
 // Personal fork - keeping dependencies up to date
 // upstream: https://github.com/tulir/whatsmeow
 // Note: bumped x/crypto and x/net to latest patch versions (security updates)
+// TODO: look into replacing chromem-go with a lighter embedding solution
