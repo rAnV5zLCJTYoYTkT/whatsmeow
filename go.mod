@@ -12,9 +12,10 @@ require (
 
 require (
 	github.com/mattn/go-sqlite3 v1.14.22
-	golang.org/x/crypto v0.24.0
-	golang.org/x/net v0.26.0
+	golang.org/x/crypto v0.25.0
+	golang.org/x/net v0.27.0
 )
 
 // Personal fork - keeping dependencies up to date
 // upstream: https://github.com/tulir/whatsmeow
+// Note: bumped x/crypto and x/net to latest patch versions (security updates)
